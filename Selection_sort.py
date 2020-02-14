@@ -7,7 +7,14 @@ def sort(nums):
         temp = nums[i]
         nums[i] = nums[minpos]
         nums[minpos] = temp
+nums = []
+nl = int(input("Enter the list size : "))
+for i in range(0, nl):
+    print("Enter number at location", i, ":", end=" ")
+    item = int(input())
+    nums.append(item)
 
-nums = [5, 3, 8, 6, 7, 2]
+print("User List is ", nums)
+
 sort(nums)
 print(nums)
