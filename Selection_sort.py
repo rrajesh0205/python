@@ -14,7 +14,7 @@ for i in range(0, nl):
     item = int(input())
     nums.append(item)
 
-print("User List is ", nums)
+print("The User List is ", nums)
 
 sort(nums)
 print(nums)
